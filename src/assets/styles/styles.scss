@@ -1,0 +1,19 @@
+.p-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.p-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.p-btn.active {
+    background-color: #ED1307;
+    border-radius: 8px;
+}
